@@ -1,0 +1,2 @@
+# Launching a site
+[Home](/)

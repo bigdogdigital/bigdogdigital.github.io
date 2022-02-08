@@ -1,3 +1,4 @@
+# Big Rig theme configuration
 [Home](/)
 [Working with Big Rig](/big-rig)
 

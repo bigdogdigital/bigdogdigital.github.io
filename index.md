@@ -2,6 +2,7 @@
 
 - [Setting up your development environment](/setup)
 - [Starting a new project](/new-project)
+    - [Working with WordPress Multisite](new-project/multisite)
 - [Working on an existing site](/existing-project)
 - [Working with Big Rig](/big-rig)
     - [Big Rig theme configuration](/big-rig/site-config)
@@ -11,5 +12,5 @@
     - [Images](/big-rig/images) 
     - [Block](/big-rig/blocks) 
     - [Composer](/big-rig/composer) 
-- [Working with Git & WPEngine](/git-wpe)
+- [Working with git & WPEngine](/git-wpe)
 - [Launching a site](/launch)
