@@ -1,4 +1,3 @@
-## Setting up your development environment
 [Home](/)
 
 1. Ensure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), and [Composer](https://getcomposer.org/) installed

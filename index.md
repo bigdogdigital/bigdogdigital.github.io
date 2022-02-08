@@ -1,7 +1,5 @@
 # Big Dog Digital Developer Documentation
 
-### Guides
-
 - [Setting up your development environment](/setup)
 - [Starting a new project](/new-project)
 - [Working on an existing site](/existing-project)
