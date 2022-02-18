@@ -1,6 +1,7 @@
 # Working with WordPress Multisite
-[Home](/)
-[Starting a new project](/new-project)
+[<< Home](/)
+
+[<< Setting up your development environment](/setup)
 
 Local currently does not support connecting to WPEngine for WordPress Multisite installs and only supports them being run on an NginX server. This means that:
 - Images cannot be mapped from the WPE install to your local one. To remedy this either:

@@ -1,18 +1,20 @@
 # Working on an existing site
-[Home](/)
+[<< Home](/)
+
+[<< Setting up your development environment](/setup)
 
 The following only applies to sites built using the version of Big Rig active from late 2021 onwards. For legacy builds enquire with [Bríain](mailto:briain@bigdog.ie) as to the best approach.
 
-For multisite projects see [Working with WordPress Multisite](new-project/multisite) first.
+For multisite projects see [Working with WordPress Multisite](setup/multisite) first.
 
 ### Sites with an existing git repository
 1. Create new install with Local
 2. Create local git repo in *siteDir*/app/public/
 
-        ``` 
-        git remote add origin git@github.com:bigdogdigital/*repositoryname*.git
-        git pull origin main
-        ```
+    ``` 
+    git remote add origin git@github.com:bigdogdigital/*repositoryname*.git
+    git pull origin main
+    ```
 3. If your local branch defaults to master instead of main:
     
     ```

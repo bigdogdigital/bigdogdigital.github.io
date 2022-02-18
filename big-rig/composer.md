@@ -1,3 +1,4 @@
 # Composer
-[Home](/)
-[Working with Big Rig](/big-rig) 
+[<< Home](/)
+
+[<< Working with Big Rig](/big-rig) 

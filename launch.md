@@ -1,2 +1,2 @@
 # Launching a site
-[Home](/)
+[<< Home](/)

@@ -1,5 +1,9 @@
 # Starting a new project
-[Home](/)
+[<< Home](/)
+
+[<< Setting up your development environment](/setup)
+
+For multisite projects see [Working with WordPress Multisite](setup/multisite) first.
 
 1. Take a fresh WPEngine backup of bdstarterrig
 2. Create new environment, production install *installname* copied from bdstarterrig
