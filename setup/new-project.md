@@ -7,7 +7,7 @@ For multisite projects see [Working with WordPress Multisite](setup/multisite) f
 
 1. Take a fresh WPEngine backup of bdstarterrig
 2. Create new environment, production install *installname* copied from bdstarterrig
-3. Create the staging install *staginginstallname*, and use the WPE Copy Environment feature to deploy the new production install to it. (it's generally a good idea to name the staging install the same as production with '-dev' appended e.g. *mynewsite* and *mynewsite-dev*)
+3. Create the staging install *staginginstallname*, and use the WPE Copy Environment feature to deploy the new production install to it. (it's generally a good idea to name the staging install the same as production with 'dev' appended e.g. *mynewsite* and *mynewsitedev*)
 4. [Generate SSH key pair](https://wpengine.com/support/ssh-keys-for-shell-access/) if necessary. A single pair of keys will be sufficient for accessing all WPEngine installs. These can also be used for the WPE SSH Gateway
 5. Copy your SSH public key and add to the Git Push section of the both production and staging installs on the WPEngine dashboard
 6. Create new repository on github git@github.com:bigdogdigital/*repositoryname*.git (repository and WPE production install names should be the same)
