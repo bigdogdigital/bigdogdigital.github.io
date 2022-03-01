@@ -20,6 +20,7 @@ Stylesheets accept the following  parameters:
  - `preload_callback` _Function_ (optional) Returning true automatically enqueue the script. Should be used for scripts present on specific pages.
  - `deps` _Array_ Script dependencies. Values should be other keys in the array
  - `footer` _Boolean_ Whether to add the script in the site `<footer>`
+ - 'loading' _String_ Pass `defer` or `async` to add these loading attributes, otherwise `false`/`null`
  - `localise` _Array_ Data to be used with [`wp_localise_script()`](https://developer.wordpress.org/reference/functions/wp_localize_script/)
     - `object_name` _String_ JSON object on which data will be accessible in the script
     - `object` _Array_ Data to be made available
@@ -27,11 +28,11 @@ Stylesheets accept the following  parameters:
 <a name="Templatepart-css-js"></a> Template part styles and scripts should follow the above rules as well as the following:
 - The source files should always be located in `/src/template-parts`
 - The handle *must* and the file name should match the template part filename
-- `global` and callbacks should always be set to false, as template parts should be able to be re-used easily anywhere.
-
+- `global` and callbacks should always be set to false
 
  
 ### Libraries<a name="Libraries"></a>
+
 
 ### Bootstrap utilities API<a name="Bootstrap-api"></a>
 

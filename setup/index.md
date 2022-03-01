@@ -6,7 +6,7 @@
 3. [Connect Local to WPEngine](https://wpengine.com/support/local/#Enable_WPE_API_and_Generate_Credentials)
 4. TODO: Add steps for implementing code formatting
 5. Get your project configured
-    - [Starting a new project](setup/new-project)
-    - [Working on an existing site](setup/existing-project)
+    - [Starting a new project](/setup/new-project)
+    - [Working on an existing site](/setup/existing-project)
 
 [Working with Big Rig >>](/big-rig)
