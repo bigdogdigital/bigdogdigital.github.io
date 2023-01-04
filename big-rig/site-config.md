@@ -50,7 +50,7 @@ From line 168 there are several classes for standard, visited and hover states f
 
 Inline link styles can be modified in `assets/css/src/_links.scss` 
 
-### <a name="Buttons"></a>Variables
+### <a name="Buttons"></a>Buttons
 `assets/css/src/_buttons.scss` contains all of the standard classes and extends used for button styled elements across the site, mapped to mixins in. `assets/css/src/_bdd_mixins`.
 
 Classes are set up for two 'standard' and one 'ghost' button. If your project has different values to these, duplicate and rename both a full set of classes and the mixins then rename them e.g.

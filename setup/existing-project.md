@@ -9,22 +9,26 @@ For multisite projects see [Working with WordPress Multisite](setup/multisite) f
 
 ### Sites with an existing git repository
 1. Create new install with Local
-2. Create local git repo in *siteDir*/app/public/
+2. Create local git repo in *siteDir*/app/public/ then:
 
     ``` 
     git remote add origin git@github.com:bigdogdigital/*repositoryname*.git
     git pull origin main
     ```
-3. If your local branch defaults to master instead of main:
+3. Fetch and checkout a local staging branch:
     
+    If your local respository defaults to `master` instead of `main` execute the following:  
     ```
     git checkout -b main --track origin/main
     git branch -d master (check if this is a local settings issue)
+    git branch -u origin/main
+    git fetch origin staging 
+    git checkout -b staging --track origin/staging
     ```
-    Otherwise:
-
+   Otherwise:
     ``` 
     git branch -u origin/main
+    git fetch origin staging 
     git checkout -b staging --track origin/staging
     ```
 4. Connect to WPE production site on Local and pull with database 
